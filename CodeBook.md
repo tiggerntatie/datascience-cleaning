@@ -2,7 +2,7 @@
 
 ## Overview
 
-[Source Data](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) were processed using a [short R script](https://github.com/tiggerntatie/datascience-cleaning) to produce the **summary.csv** data file.
+[Source Data](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) were processed using a [short R script](https://github.com/tiggerntatie/datascience-cleaning) to produce the **summary.txt** data file.
 
 Original Data are the work of the following:
 
@@ -14,7 +14,7 @@ This data set consists of the following files:
 
 * README.md: a description of how the dataset files are used/produced using the R script
 * CodeBook.md: this file.
-* summary.csv: The summarized data in comma separated value format.
+* summary.txt: The summarized data in text format.
 * run_analysis.R: The R-language script
 * .gitignore: git ignore file that will exclude the source data from archiving.
 

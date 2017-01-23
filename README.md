@@ -13,7 +13,7 @@ This repository includes the following files:
 * .gitignore: Git ignore file that will exclude the source data from being archived
 * README.md: This file
 * run_analysis.R: R script. By executing the script with an R interpreter, the source data files are loaded and parsed to produce a single summary output file.
-* summary.csv: The summary output produced by the R script.
+* summary.txt: The summary output produced by the R script.
 
 ## Prerequisites
 
