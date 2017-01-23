@@ -84,5 +84,5 @@ all_data <- merge(train_data, test_data, all=TRUE)
 summary_data <- all_data %>% group_by(subject, activity) %>% summarise_each(funs(mean))
 
 # Dump to CSV:
-write.csv(summary_data, "summary.csv")
+write.table(summary_data, "summary.txt", row.names=FALSE)
 
